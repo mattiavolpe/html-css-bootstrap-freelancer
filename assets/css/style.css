@@ -28,6 +28,10 @@
   height: 250px;
 }
 
+.debug #about .row * {
+  height: 200px;
+}
+
 /* #endregion Debug */
 
 /* #region Header */
@@ -41,7 +45,8 @@
 
 /* #region Main */
 
-#jumbo {
+#jumbo,
+#about {
   background-color: var(--my-primary);
 }
 
