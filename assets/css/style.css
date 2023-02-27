@@ -12,11 +12,16 @@
 /* #region Debug */
 
 .debug * {
-  outline: 1px solid limegreen;
+  outline: 1px solid red;
 }
 
-.debug #app_header * {
+.debug #app_header *,
+.debug #jumbo * {
   height: 100%;
+}
+
+.debug #jumbo {
+  height: 500px;
 }
 
 /* #endregion Debug */
@@ -29,3 +34,11 @@
 }
 
 /* #endregion Header */
+
+/* #region Main */
+
+#jumbo {
+  background-color: var(--my-primary);
+}
+
+/* #endregion Main */
