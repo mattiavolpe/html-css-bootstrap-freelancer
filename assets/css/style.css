@@ -8,6 +8,14 @@
 
 /* #endregion Common */
 
+/* #region Utilities */
+
+.my_container {
+  width: calc(100% / 12 * 8);
+}
+
+/* #endregion Utilities */
+
 
 /* #region Debug */
 
