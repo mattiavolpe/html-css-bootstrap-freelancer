@@ -24,6 +24,10 @@
   height: 500px;
 }
 
+.debug #portfolio .col {
+  height: 250px;
+}
+
 /* #endregion Debug */
 
 /* #region Header */
