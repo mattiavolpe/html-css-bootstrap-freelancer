@@ -14,6 +14,10 @@
   width: calc(100% / 12 * 8);
 }
 
+.ms_half_brightness {
+  filter: brightness(0.5);
+}
+
 /* #endregion Utilities */
 
 
@@ -54,7 +58,6 @@
 /* #region Header */
 
 #app_header {
-  height: 90px;
   background-color: var(--my-dark);
 }
 
