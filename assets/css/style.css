@@ -50,8 +50,28 @@
   flex-grow: 1;
 }
 
+.ms_color_primary_link {
+  color: var(--my-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.ms_color_primary_link:hover {
+  color: #1abc9ccc;;
+}
+
 .ms_btn_bg_primary {
   background-color: var(--my-primary);
+}
+
+.ms_social_icon_wrapper {
+  display: inline-block;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 /* #endregion Utilities */
@@ -132,7 +152,6 @@
 }
 
 #footer_bottom {
-  height: 90px;
   background-color: var(--my-dark);
 }
 
