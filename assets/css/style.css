@@ -10,12 +10,36 @@
 
 /* #region Utilities */
 
-.my_container {
+.ms_container {
   width: calc(100% / 12 * 8);
 }
 
 .ms_half_brightness {
   filter: brightness(0.5);
+}
+
+.ms_star_wrapper_light::before {
+  content: '';
+  border-top: 2px solid #ffffff;
+  flex-grow: 1;
+}
+
+.ms_star_wrapper_light::after {
+  content: '';
+  border-top: 2px solid #ffffff;
+  flex-grow: 1;
+}
+
+.ms_star_wrapper_dark::before {
+  content: '';
+  border-top: 2px solid #000000;
+  flex-grow: 1;
+}
+
+.ms_star_wrapper_dark::after {
+  content: '';
+  border-top: 2px solid #000000;
+  flex-grow: 1;
 }
 
 /* #endregion Utilities */
@@ -68,6 +92,10 @@
 #jumbo,
 #about {
   background-color: var(--my-primary);
+}
+
+#ms_jumbo_title {
+  font-size: 4rem;
 }
 
 /* #endregion Main */
