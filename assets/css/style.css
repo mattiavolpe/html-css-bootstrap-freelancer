@@ -95,7 +95,7 @@
 }
 
 #ms_jumbo_title {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 /* #endregion Main */
@@ -112,3 +112,23 @@
 }
 
 /* #endregion Footer */
+
+/* #region Responsive */
+
+@media screen and (min-width: 768px) {
+
+  #ms_jumbo_title {
+    font-size: 3rem;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  #ms_jumbo_title {
+    font-size: 4rem;
+  }
+
+}
+
+/* #endregion Responsive */
