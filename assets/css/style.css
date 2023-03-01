@@ -18,14 +18,7 @@
   filter: brightness(0.5);
 }
 
-.ms_star_wrapper_light::before {
-  content: '';
-  height: 4px;
-  border-radius: 4px;
-  background-color: #ffffff;
-  flex-grow: 1;
-}
-
+.ms_star_wrapper_light::before,
 .ms_star_wrapper_light::after {
   content: '';
   height: 4px;
@@ -34,14 +27,7 @@
   flex-grow: 1;
 }
 
-.ms_star_wrapper_dark::before {
-  content: '';
-  height: 4px;
-  border-radius: 4px;
-  background-color: #000000;
-  flex-grow: 1;
-}
-
+.ms_star_wrapper_dark::before,
 .ms_star_wrapper_dark::after {
   content: '';
   height: 4px;
